@@ -77,7 +77,7 @@ namespace SIS {
         static SoundFile() {
             defaultSoundFile = new SoundFile(Resources.Load<AudioClip>("Default"));
             defaultSoundFile.soundName = "Placeholder Sound";
-            warningSoundFile = new SoundFile(Resources.Load<AudioClip>("NegativeBeep1")); // Old Filename: 'VoiceOver'
+            warningSoundFile = new SoundFile(Resources.Load<AudioClip>("air.wav")); // Old Filename: 'VoiceOver'
             warningSoundFile.soundName = "Tracking warning";
         }
 
